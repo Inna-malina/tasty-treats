@@ -1,0 +1,12 @@
+@import "./css/header.css";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.center {
+  max-width: 1210px;
+  margin: 0px auto;
+}
