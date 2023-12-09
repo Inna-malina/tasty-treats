@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+}
+.footer-box {
+  padding: 120px 0px 0px 0px;
+  background: url("../images/bunners/4-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-title {
+  font-size: 33px;
+  text-align: center;
+  line-height: 82px;
+  font-weight: 600;
+  color: #ffff;
+}
+.footer-text {
+  width: 550px;
+  margin: 0px auto;
+  font-size: 18px;
+  text-align: center;
+  line-height: 33px;
+  font-weight: 400;
+  color: #ffff;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.footer-text .time {
+  opacity: 0.5;
+  font-weight: 400;
+}

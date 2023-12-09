@@ -1,8 +1,12 @@
 @import "./css/header.css";
+@import "./css/footer.css";
 @import "./css/section-one.css";
 @import "./css/section-two.css";
 @import "./css/section-three.css";
 @import "./css/section-four.css";
+@import "./css/section-five.css";
+@import "./css/section-six.css";
+@import "./css/section-seven.css";
 
 * {
   padding: 0px;
@@ -15,4 +19,16 @@
   max-width: 1280px;
   margin: 0px auto;
   position: relative;
+}
+
+.logo-red-box {
+  width: 100%;
+  padding: 50px 0px 100px 0px;
+}
+
+.logo-red {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0px auto;
 }
