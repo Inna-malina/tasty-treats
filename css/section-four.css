@@ -1,0 +1,16 @@
+.section-four {
+  width: 100%;
+  padding: 120px 0px 0px 0px;
+}
+
+.gallery-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.gallery-item {
+  width: 610px;
+  height: 450px;
+  object-fit: cover;
+}
