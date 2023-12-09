@@ -1,0 +1,13 @@
+.section-three {
+  width: 100%;
+  padding: 120px 0px 0px 0px;
+}
+
+.promo-text {
+  max-width: 717px;
+  margin: 0px auto;
+  font-size: 22px;
+  text-align: center;
+  line-height: 33px;
+  font-weight: 600;
+}

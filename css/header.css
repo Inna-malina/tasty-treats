@@ -1,4 +1,33 @@
 header {
-  max-width: 1280px;
-  margin: 0px auto;
+  max-width: 100%;
+  position: relative;
+  z-index: 100;
+}
+.header-nav-box {
+  position: absolute;
+  width: 100%;
+  padding: 0px 35px;
+  /* background: black; */
+}
+
+.nav-desctop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-desctop__logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-desctop__menu ul {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-desctop__menu ul li {
+  color: white;
 }

@@ -1,12 +1,17 @@
 @import "./css/header.css";
+@import "./css/section-one.css";
+@import "./css/section-two.css";
+@import "./css/section-three.css";
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .center {
-  max-width: 1210px;
+  max-width: 1280px;
   margin: 0px auto;
+  position: relative;
 }

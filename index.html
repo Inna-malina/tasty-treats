@@ -6,20 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tasty Treats</title>
   <link rel="stylesheet" href="./index.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
     <div class="center">
-      <nav>
+      <nav class="header-nav-box">
         <div class="nav-desctop">
-          <div class="nav-desctop__logo"></div>
+          <div class="nav-desctop__logo">
+            <img src="./images/logo/logo-letter-white.png" alt="logo">
+          </div>
           <div class="nav-desctop__menu">
             <ul>
               <li>Главная</li>
-              <li>Главная</li>
-              <li>Главная</li>
-              <li>Главная</li>
+              <li>Событие</li>
+              <li>О компании</li>
+              <li>Услуги</li>
               <li>Контакты</li>
             </ul>
           </div>
@@ -27,6 +33,47 @@
       </nav>
     </div>
   </header>
+  <main class="main-box">
+    <section class="section-one">
+      <div class="center">
+        <div class="bunner-box">
+          <div class="bunner-text-box">
+            <h1 class="bunner-title">Кондитерская<br> авторских тортов</h1>
+            <p class="bunner-text">У нас вы найдёт торт для любого случая</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section-two">
+      <div class="center">
+        <div class="contacts-box">
+          <div class="contact-box contact-map">
+            <img src="./images/icons/map.png" alt="иконка карты">
+            <div class="text">
+              Новосибирск, ул. Советская, 23
+            </div>
+          </div>
+          <div class="contact-box contact-phone">
+            <img src="./images/icons/phone.png" alt="иконка телефона">
+            <div class="text">Телефон:<br> 8 (383) 209-18-36</div>
+          </div>
+          <div class="contact-box contact-clock">
+            <img src="./images/icons/time.png" alt="иконка часов">
+            <div class="text">Мы открыты:<br> 09:00 - 21:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-three">
+      <div class="center">
+        <div class="promo-text">
+          В кондитерской "Tasty Treats" используются только свежие и натуральные ингредиенты для создания вкуснейших
+          тортов. Мы предлагаем широкий ассортимент тортов на любой вкус и предпочтение, от классических до самых
+          необычных.
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
