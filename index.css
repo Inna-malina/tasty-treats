@@ -32,3 +32,19 @@
   height: 80px;
   margin: 0px auto;
 }
+
+.button-box {
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+  width: 250px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
