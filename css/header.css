@@ -29,5 +29,9 @@ header {
 }
 
 .nav-desctop__menu ul li {
+}
+
+.nav-desctop__link {
   color: white;
+  text-decoration: none;
 }

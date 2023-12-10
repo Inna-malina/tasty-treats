@@ -1,8 +1,8 @@
 .section-two {
-  padding: 100px 0px 0px 0px;
 }
 
 .contacts-box {
+  padding: 100px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -34,4 +34,50 @@
 }
 .contact-clock {
   width: 25%;
+}
+
+/* event.html */
+.event-descriotion__box {
+  background: rgb(245, 245, 245);
+  padding: 100px 0px 0px 0px;
+}
+
+.event-icons-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 80px 0px;
+}
+
+.event-promo-text {
+  max-width: 717px;
+  margin: 0px auto;
+  font-size: 22px;
+  text-align: center;
+  line-height: 33px;
+  font-weight: 600;
+  padding: 0px 0px 80px 0px;
+}
+
+.event-icons-box img {
+  display: block;
+}
+
+.event-icon-one {
+  width: 80px;
+  height: auto;
+}
+.event-icon-two {
+  width: 80px;
+  height: auto;
+}
+.event-icon-three {
+}
+.event-icon-four {
+  width: 80px;
+  height: auto;
+}
+.event-icon-five {
+  width: 80px;
+  height: auto;
 }
