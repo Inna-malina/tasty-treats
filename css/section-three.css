@@ -3,7 +3,8 @@
   padding: 120px 0px 0px 0px;
 }
 
-.promo-text {
+.promo-text,
+.about-promo {
   max-width: 717px;
   margin: 0px auto;
   font-size: 22px;
@@ -75,4 +76,23 @@
   color: black;
   width: 250px;
   padding: 20px;
+}
+
+.about-three {
+  padding-bottom: 80px;
+}
+
+.description-about {
+  max-width: 717px;
+  margin: 0px auto;
+  font-size: 18px;
+  text-align: left;
+  line-height: 33px;
+  font-weight: 400;
+  padding: 0px 0px 30px 0px;
+}
+
+.about-promo {
+  text-align: left;
+  padding: 0px 0px 30px 0px;
 }
